@@ -1,0 +1,32 @@
+{
+  "name": "pizzaria-system",
+  "version": "1.0.0",
+  "description": "Sistema completo de gerenciamento de pizzaria em TypeScript",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "ts-node src/index.ts",
+    "test": "jest"
+  },
+  "keywords": [
+    "pizzaria",
+    "typescript",
+    "sistema",
+    "vendas"
+  ],
+  "author": "Sistema de Pizzaria",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "readline-sync": "^1.4.10"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.0.0",
+    "@types/node": "^20.0.0",
+    "@types/readline-sync": "^1.4.4",
+    "jest": "^29.0.0",
+    "ts-node": "^10.9.0",
+    "typescript": "^5.9.2"
+  }
+}
